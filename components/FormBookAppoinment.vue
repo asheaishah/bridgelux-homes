@@ -18,15 +18,8 @@
           <label for="enquiry" class="block font-medium text-gray-500">Enquiry<span class="text-red-500">*</span></label>
           <select id="enquiry" v-model="enquiry" required class="form-input">
             <option value="">Please select</option>
-            <option value="Financing">Financing</option>
             <option value="Purchase">Purchase</option>
-            <option value="View Showflat">View Showflat</option>
             <option value="I want to purchase, but I have an existing property to sell">I want to purchase, but I have an existing property to sell</option>
-            <option value="Decoupling">Decoupling</option>
-            <option value="CPF Fund Usage">CPF Fund Usage</option>
-            <option value="Loan Eligibility (LTV)">Loan Eligibility (LTV)</option>
-            <option value="Total Debt Servicing Ratio (TDSR)">Total Debt Servicing Ratio (TDSR)</option>
-            <option value="Additional Buyer Stamp Duty (ABSD)">Additional Buyer Stamp Duty (ABSD)</option>
             <option value="I want updates only">I want updates only</option>
             <option value="Others">Others</option>
           </select>
@@ -129,7 +122,7 @@ export default {
       success: false,
       policyIsAgree: '',
       send_brochure: false,
-      email_2: 'dave@singhaiyi.com',
+      email_2: 'bridgeluxhome@gmail.com',
       newSendBrochure: '', 
     };
   },
@@ -176,25 +169,24 @@ export default {
 
         const emailBody =
         `<h3>Dear ${this.name},</h3>` +
-        `<h4>Thank you for your interest in Grand Dunman. We are thrilled to offer you the opportunity to be among the first to experience our new, upcoming condominium.</h4>` +
-        `<h4>As a valued prospect, we want to keep you informed of all the latest updates and developments related to Grand Dunman. Our team is dedicated to providing you with the most up-to-date information available, and we will be sure to keep you in the loop as we progress.</h4>` +
-        `<h4>In the meantime, we invite you to visit our show flat and take advantage of our exclusive direct developer prices with discounts. Our knowledgeable staff will be on hand to guide you through our state-of-the-art facilities and answer any questions you may have.</h4>` +
-        `<h4>In addition to our show flat, we also update our website regularly with new information and exciting developments related to Grand Dunman. Be sure to check back often for the latest news at: <a href="https://grand-dunman.com.sg/"><b>grand-dunman.com.sg</b></a></h4>` +
-        `<h4>If you have any questions or concerns, please do not hesitate to contact us at <a href="tel:+65 6100 3337"><b>+65 6100 3337</b></a> or reply to this email: <a href="mailto:dave@singhaiyi.com"><b>dave@singhaiyi.com</b></a>. Our team is here to provide you with the highest level of service and support.</h4>` +
-        `<h4>Thank you for considering Grand Dunman as your next home. We look forward to the opportunity to serve you!</h4>` +
+        `<h4>Thank you for your interest in Bridgelux Homes. We are thrilled to offer you the opportunity to be among the first to experience our new, upcoming single-storey terrace house.</h4>` +
+        `<h4>As a valued prospect, we want to keep you informed of all the latest updates and developments related to Bridgelux Homes. Our team is dedicated to providing you with the most up-to-date information available, and we will be sure to keep you in the loop as we progress.</h4>` +
+        `<h4>In addition, we also update our website regularly with new information and exciting developments related to Bridgelux Homes. Be sure to check back often for the latest news at: <a href="https://bridgeluxhomes.kuchingproperty.com/"><b>bridgeluxhomes.kuchingproperty.com</b></a></h4>` +
+        `<h4>If you have any questions or concerns, please do not hesitate to contact us at <a href="tel:+6017 809 3305"><b>+6017 809 3305</b></a> or reply to this email: <a href="mailto:bridgeluxhome@gmail.com"><b>bridgeluxhome@gmail.com</b></a>. Our team is here to provide you with the highest level of service and support.</h4>` +
+        `<h4>Thank you for considering Bridgelux Homes as your next home. We look forward to the opportunity to serve you!</h4>` +
         `<h4>Best regards,</h4>` +
-        `<h4>Grand Dunman</h4>`;
+        `<h4>Bridgelux Homes</h4>`;
 
         this.$axios
-          .post('https://grand-dunman.com.sg/send_mail.php', {
+          .post('https://bridgeluxhomes.com/send_mail.php', {
             To: process.env.EMAIL_USER,
             From: this.email,
-            Subject: 'Grand Dunman - Receipt Acknowledgement',
+            Subject: 'Bridgelux Homes - Receipt Acknowledgement',
             Body: emailBody,
           })
           .then(() => {
             const appointmentBody =
-              `<h3>Dear Dave,</h3>` +
+              `<h3>Dear Admin,</h3>` +
               `<h4>We have received a new appointment submission from a potential buyer who wishes to visit the property. The details of the appointment are as follows:</h4>` +
               `<ul>` +
               `<li><strong>Enquiry: ${this.enquiry}</strong></li>` +
@@ -206,12 +198,12 @@ export default {
               `<li><strong>Send Brochure: ${this.newSendBrochure}</strong></li>` +
               `</ul>` +
               `<h4>Thanks,</h4>` +
-              `<h4>Grand Dunman</h4>`;
+              `<h4>Bridgelux Homes</h4>`;
 
-            this.$axios.post('https://grand-dunman.com.sg/send_mail.php', {
+            this.$axios.post('https://bridgeluxhomes.com/send_mail.php', {
               To: process.env.EMAIL_USER,
               From: this.email_2,
-              Subject: `Grand Dunman - New Appointment Submission [${this.name}]`,
+              Subject: `Bridgelux Homes - New Appointment Submission [${this.name}]`,
               Body: appointmentBody,
             }).then(() => {
               this.success = true;

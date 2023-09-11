@@ -12,7 +12,7 @@
             />
             <br>
             <p>
-            Make an appointment now to explore the elegant ShowFlat of Grand Dunman and avail of our VVIP Discounts for a limited time only. With direct developer pricing, and an exclusive hardcopy E-Brochure, 
+            Make an appointment now to explore the elegant Single-storey Terrace House of Bridgelux Homes. With direct developer pricing, and an exclusive hardcopy E-Brochure, 
             we guarantee the best price possible for your future residence.
           </p>
           <br>

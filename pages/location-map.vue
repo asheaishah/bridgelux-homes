@@ -1,14 +1,14 @@
 <template>
   <div>
-    <div class="py-12 select-none bg-theme-700">
-      <div class="text-xl font-semibold text-center text-white sm:text-4xl">
-        Location Map
+    <div class="py-8 select-none bg-gradient-to-b from-violet-500 to-green-200 pb-20 h-10">
+          <div class="text-xl font-semibold text-center text-white sm:text-4xl">
+          Location Map
+        </div>
       </div>
-    </div>
     <section>
       <div class="max-w-6xl px-4 py-12 mx-auto space-y-6">
         <img
-          src="~assets/img/Grand-Dunman-Location-Map-scaled.jpg"
+          src="~assets/img/blh/location-map.png"
           alt="Location Plan for Grand Dunman"
           class="mx-auto"
         />
@@ -25,17 +25,8 @@
     ></iframe>
   </div>
 
-      <!-- <NuxtLink to="/public/pdf/location-map-lilium.pdf" target="_blank"
-            ><img
-              src="~assets/img/location-map-lilium.png"
-              class="mx-auto"
-              alt="The Lilium Location Map"
-          /></NuxtLink> 
-          
-          <h3 class="text-center sm:text-xl">Do <strong>"click"</strong> the above picture to view The Lilium Location Map</h3> -->
-
         <h3 class="text-xl font-semibold sm:text-2xl">
-          Amenities @ Grand Dunman
+          Facilities Nearby @ Bridgelux Homes
         </h3>
         <div class="p-4 space-y-3 bg-white shadow-md">
           <h4 class="text-xl font-semibold tracking-wider text-theme-600">
@@ -49,7 +40,7 @@
              <!--Train Vector -->
               <div
                 class="grid grid-cols-1 text-gray-600 sm:grid-cols-2 sm:gap-60">
-                <p class="text-gray-600">Haig Road Market</p>
+                <p class="text-gray-600">Summer Mall</p>
                 <div class="flex items-center">
                   <div class="text-theme-500">
                     <!---->
@@ -59,7 +50,7 @@
               <!-- End First Row -->
               <div
                 class="grid grid-cols-1 text-gray-600 sm:grid-cols-2 sm:gap-60">
-                <p class="text-gray-600">Cooked Food Centre</p>
+                <p class="text-gray-600">Aiman Mall</p>
                 <div class="flex items-center">
                   <div class="text-theme-500">
                     <!---->
@@ -69,31 +60,12 @@
               <div
                 class="grid grid-cols-1 text-gray-600 sm:grid-cols-2 sm:gap-60"
               >
-                <p class="text-gray-600">Kinex Mall</p>
+                <p class="text-gray-600">Farley Supermarket</p>
                 <div class="flex items-center">
                   <div class="text-theme-500">
                     <!---->
                   </div>
                   
-                </div>
-              </div>
-              <div
-                class="grid grid-cols-1 text-gray-600 sm:grid-cols-2 sm:gap-60">
-                <p class="text-gray-600">Dunman Food Centre</p>
-                <div class="flex items-center">
-                  <div class="text-theme-500">
-                    <!---->
-                  </div>
-                </div>
-              </div>
-              <div
-                class="grid grid-cols-1 text-gray-600 sm:grid-cols-2 sm:gap-60"
-              >
-                <p class="text-gray-600">Geylang Serai Market & Food Centre</p>
-                <div class="flex items-center">
-                  <div class="text-theme-500">
-                    <!---->
-                  </div>
                 </div>
               </div>
             </div>
@@ -109,7 +81,7 @@
               <div
                 class="grid grid-cols-1 text-gray-600 sm:grid-cols-2 sm:gap-60"
               >
-                <p class="text-gray-600">Eton House International School (Broadrick)</p>
+                <p class="text-gray-600">Taska Permata KEMAS Kampung Baru</p>
                 <div class="flex items-center">
                   <div class="text-theme-500">
                     <!---->
@@ -118,7 +90,7 @@
               </div>
               <div
                 class="grid grid-cols-1 text-gray-600 sm:grid-cols-2 sm:gap-60">
-                <p class="text-gray-600">Broadrick Secondary School</p>
+                <p class="text-gray-600">SK Kampung Rembus</p>
                 <div class="flex items-center">
                   <div class="text-theme-500">
                     <!---->
@@ -127,7 +99,7 @@
               </div>
               <div
                 class="grid grid-cols-1 text-gray-600 sm:grid-cols-2 sm:gap-60">
-                <p class="text-gray-600">Chung Cheng High School</p>
+                <p class="text-gray-600">Sk Kampung Tambey</p>
                 <div class="flex items-center">
                   <div class="text-theme-500">
                     <!---->
@@ -136,7 +108,7 @@
               </div>
               <div
                 class="grid grid-cols-1 text-gray-600 sm:grid-cols-2 sm:gap-60">
-                <p class="text-gray-600">Kong Hwa School</p>
+                <p class="text-gray-600">SK Kampung Baru</p>
                 <div class="flex items-center">
                   <div class="text-theme-500">
                     <!---->
@@ -145,17 +117,7 @@
               </div>
               <div
                 class="grid grid-cols-1 text-gray-600 sm:grid-cols-2 sm:gap-60">
-                <p class="text-gray-600">Eton House International School</p>
-                <div class="flex items-center">
-                  <div class="text-theme-500">
-                    <!---->
-                  </div>
-                  
-                </div>
-              </div>
-              <div
-                class="grid grid-cols-1 text-gray-600 sm:grid-cols-2 sm:gap-60">
-                <p class="text-gray-600">Tanjong Katong Girls’ School</p>
+                <p class="text-gray-600">IPG Kampus Tun Abdul Razak</p>
                 <div class="flex items-center">
                   <div class="text-theme-500">
                     <!---->
@@ -165,16 +127,17 @@
               </div>
               <div
                 class="grid grid-cols-1 text-gray-600 sm:grid-cols-2 sm:gap-60">
-                <p class="text-gray-600">Dunman High School</p>
+                <p class="text-gray-600">UiTM</p>
                 <div class="flex items-center">
                   <div class="text-theme-500">
                     <!---->
                   </div>
+                  
                 </div>
               </div>
               <div
                 class="grid grid-cols-1 text-gray-600 sm:grid-cols-2 sm:gap-60">
-                <p class="text-gray-600">Tanjong Katong Secondary School</p>
+                <p class="text-gray-600">UNIMAS</p>
                 <div class="flex items-center">
                   <div class="text-theme-500">
                     <!---->
@@ -194,7 +157,7 @@
               <div
                 class="grid grid-cols-1 text-gray-600 sm:grid-cols-2 sm:gap-60"
               >
-                <p class="text-gray-600">Marina Reservoir</p>
+                <p class="text-gray-600">Swimming Pool Kota Samarahan</p>
                 <div class="flex items-center">
                   <div class="text-theme-500">
                     <!---->
@@ -204,119 +167,7 @@
               <div
                 class="grid grid-cols-1 text-gray-600 sm:grid-cols-2 sm:gap-60"
               >
-                <p class="text-gray-600">The Eurasian Association of Singapore</p>
-                <div class="flex items-center">
-                  <div class="text-theme-500">
-                    <!---->
-                  </div>
-                  
-                </div>
-              </div>
-              <div
-                class="grid grid-cols-1 text-gray-600 sm:grid-cols-2 sm:gap-60"
-              >
-                <p class="text-gray-600">Singapore Swimming Club</p>
-                <div class="flex items-center">
-                  <div class="text-theme-500">
-                    <!---->
-                  </div>
-                </div>
-              </div>
-              <div
-                class="grid grid-cols-1 text-gray-600 sm:grid-cols-2 sm:gap-60"
-              >
-                <p class="text-gray-600">Chinese Swimming Club</p>
-                <div class="flex items-center">
-                  <div class="text-theme-500">
-                    <!---->
-                  </div>
-                </div>
-              </div>
-              <div
-                class="grid grid-cols-1 text-gray-600 sm:grid-cols-2 sm:gap-60"
-              >
-                <p class="text-gray-600">National Stadium Singapore</p>
-                <div class="flex items-center">
-                  <div class="text-theme-500">
-                    <!---->
-                  </div>
-                </div>
-              </div>
-              <div
-                class="grid grid-cols-1 text-gray-600 sm:grid-cols-2 sm:gap-60"
-              >
-                <p class="text-gray-600">Indoor Stadium</p>
-                <div class="flex items-center">
-                  <div class="text-theme-500">
-                    <!---->
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="p-4 space-y-3 bg-white shadow-md">
-          <h4 class="text-xl font-semibold tracking-wider text-theme-600">
-            TRANSPORT &amp; CONNECTIVITY
-          </h4>
-          <div class="space-y-1">
-            <h5 class="text-lg font-semibold text-gray-900"></h5>
-            <div class="space-y-2">
-              <div
-                class="grid grid-cols-1 text-gray-600 sm:grid-cols-2 sm:gap-60"
-              >
-                <p class="text-gray-600">Dakota (CC8)</p>
-                <div class="flex items-center">
-                  <div class="text-theme-500">
-                    <!---->
-                  </div>
-                 
-                </div>
-              </div>
-              <div
-                class="grid grid-cols-1 text-gray-600 sm:grid-cols-2 sm:gap-60"
-              >
-                <p class="text-gray-600">
-                  Mountbatten (CC7)
-                </p>
-                <div class="flex items-center">
-                  <div class="text-theme-500">
-                    <!---->
-                  </div>
-                 
-                </div>
-              </div>
-              <div
-                class="grid grid-cols-1 text-gray-600 sm:grid-cols-2 sm:gap-60"
-              >
-                <p class="text-gray-600">
-                  Katong Park MRT (TE24) 
-                </p>
-                <div class="flex items-center">
-                  <div class="text-theme-500">
-                    <!---->
-                  </div>
-                  
-                </div>
-              </div>
-              <div
-                class="grid grid-cols-1 text-gray-600 sm:grid-cols-2 sm:gap-60"
-              >
-                <p class="text-gray-600">
-                 Thomson-East Coast Line (2023)
-                </p>
-                <div class="flex items-center">
-                  <div class="text-theme-500">
-                    <!---->
-                  </div>
-                 
-                </div>
-              </div>
-              <div
-                class="grid grid-cols-1 text-gray-600 sm:grid-cols-2 sm:gap-60"
-              >
-                <p class="text-gray-600">East Coast Parkway (ECP)
-                </p>
+                <p class="text-gray-600">Kota Samarahan Indoor Stadium</p>
                 <div class="flex items-center">
                   <div class="text-theme-500">
                     <!---->
@@ -337,7 +188,7 @@
               <div
                 class="grid grid-cols-1 text-gray-600 sm:grid-cols-2 sm:gap-60"
               >
-                <p class="text-gray-600">Vincent’s Dental Surgery</p>
+                <p class="text-gray-600">Perpustakaan Desa Kampung Rembus</p>
                 <div class="flex items-center">
                   <div class="text-theme-500">
                     <!---->
@@ -347,18 +198,7 @@
               <div
                 class="grid grid-cols-1 text-gray-600 sm:grid-cols-2 sm:gap-60"
               >
-                <p class="text-gray-600">Katong Family Clinic Pte Ltd</p>
-                <div class="flex items-center">
-                  <div class="text-theme-500">
-                    <!---->
-                  </div>
-             
-                </div>
-              </div>
-              <div
-                class="grid grid-cols-1 text-gray-600 sm:grid-cols-2 sm:gap-60"
-              >
-                <p class="text-gray-600">Geylang Serai CC</p>
+                <p class="text-gray-600">Pusat Penjaja MPKS Jambatan Samarahan</p>
                 <div class="flex items-center">
                   <div class="text-theme-500">
                     <!---->
@@ -369,7 +209,39 @@
               <div
                 class="grid grid-cols-1 text-gray-600 sm:grid-cols-2 sm:gap-60"
               >
-                <p class="text-gray-600">Mountbatten CC</p>
+                <p class="text-gray-600">Masjid Darul Al-Naim</p>
+                <div class="flex items-center">
+                  <div class="text-theme-500">
+                    <!---->
+                  </div>
+             
+                </div>
+              </div>
+              <div
+                class="grid grid-cols-1 text-gray-600 sm:grid-cols-2 sm:gap-60"
+              >
+                <p class="text-gray-600">Pejabat Pos Kota Samarahan</p>
+                <div class="flex items-center">
+                  <div class="text-theme-500">
+                    <!---->
+                  </div>
+                </div>
+              </div>
+              <div
+                class="grid grid-cols-1 text-gray-600 sm:grid-cols-2 sm:gap-60"
+              >
+                <p class="text-gray-600">Kota Samarahan Civic Centre</p>
+                <div class="flex items-center">
+                  <div class="text-theme-500">
+                    <!---->
+                  </div>
+             
+                </div>
+              </div>
+              <div
+                class="grid grid-cols-1 text-gray-600 sm:grid-cols-2 sm:gap-60"
+              >
+                <p class="text-gray-600">Kota Samarahan Health Clinic</p>
                 <div class="flex items-center">
                   <div class="text-theme-500">
                     <!---->
@@ -394,8 +266,8 @@
               transition
               rounded
               sm:px-0
-              hover:bg-theme-900
-              bg-theme-700
+              hover:bg-blue-600
+              bg-blue-300
             "
           >
             Continue To Site Plan
@@ -417,7 +289,9 @@
         </section>
       </div>
     </section>
+  
     <BookAppointment />
+  
   </div>
 </template>
 
@@ -425,7 +299,7 @@
 export default {
   data() {
     return {
-      mapUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7783156568266!2d103.88601178273224!3d1.3082421952741143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da156693251d91%3A0xfc141c355bd30e9b!2sGrand%20Dunman!5e0!3m2!1sen!2smy!4v1689953069160!5m2!1sen!2smy'
+      mapUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9624.51758764508!2d110.49242649224017!3d1.4824210123416743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31fba3e18693e66b%3A0xe0e4625b2177b979!2sBridgelux%20Homes!5e1!3m2!1sen!2smy!4v1692779002775!5m2!1sen!2smy'
     };
   },
 };

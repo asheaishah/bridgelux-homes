@@ -1,113 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://www.grand-dunman.com.sg/</loc>
+        <loc>https://bridgeluxhomes.kuchingproperty.com/</loc>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>http://www.grand-dunman.com.sg/developer</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>http://www.grand-dunman.com.sg/project-details</loc>
+        <loc>https://bridgeluxhomes.kuchingproperty.com/project-details</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <!-- Add more URLs as per the pattern above -->
     <url>
-        <loc>http://www.grand-dunman.com.sg/location-map</loc>
+        <loc>https://bridgeluxhomes.kuchingproperty.com/location-map</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>http://www.grand-dunman.com.sg/site-plan</loc>
+        <loc>https://bridgeluxhomes.kuchingproperty.com/site-plan</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>http://www.grand-dunman.com.sg/360-degree-view-site-plan</loc>
+        <loc>https://bridgeluxhomes.kuchingproperty.com/floor-plan</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>http://www.grand-dunman.com.sg/floor-plan</loc>
+        <loc>https://bridgeluxhomes.kuchingproperty.com/gallery</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>http://www.grand-dunman.com.sg/pricing</loc>
+        <loc>https://bridgeluxhomes.kuchingproperty.com/bridgelux-homes/phase-1</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>http://www.grand-dunman.com.sg/gallery</loc>
+        <loc>https://bridgeluxhomes.kuchingproperty.com/bridgelux-homes/phase-2</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
-    <url>
-        <loc>http://www.grand-dunman.com.sg/video</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>http://www.grand-dunman.com.sg/e-brochure</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>http://www.grand-dunman.com.sg/elevation-chart</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>http://www.grand-dunman.com.sg/balance-units-chart</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>http://www.grand-dunman.com.sg/dunman/payar-lebar</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>http://www.grand-dunman.com.sg/dunman/marine-parade</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>http://www.grand-dunman.com.sg/press/press-one</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>http://www.grand-dunman.com.sg/press/press-two</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>http://www.grand-dunman.com.sg/financing/stamp-duty</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>http://www.grand-dunman.com.sg/financing/payment-scheme</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>http://www.grand-dunman.com.sg/financing/housing-loan-information</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>http://www.grand-dunman.com.sg/financing/maximum-loan-eligibility-calculator-tdsr</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>http://www.grand-dunman.com.sg/financing/rental-yield-calculator</loc>
+        <url>
+        <loc>https://bridgeluxhomes.kuchingproperty.com/sales-memo</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>

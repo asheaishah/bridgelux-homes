@@ -1,36 +1,38 @@
 <template>
   <div class="bg-theme-50">
-    <div class="max-w-8xl px-4 py-12 mx-auto">
+          <div class="max-w-8xl px-4 py-12 mx-auto">
       <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
-        <div class="space-y-2">
+        <div class="space-y-2 flex flex-col items-center justify-center">
           <h4 class="text-xl font-medium">Proudly Developed By</h4>
+        
           <img
-            src="@/assets/img/singhaiyi.png"
-            alt="Singhaiyi Group Pte. Ltd."
-            class="object-contain h-40"
+            src="@/assets/img/blh/teknik-perancang-realty.png"
+            alt="Teknik Perancang Realty Sdn. Bhd"
+            class="object-contain h-20"
           />
+      
         </div>
-        <div class="space-y-2">
-          <h4 class="text-xl font-medium">Grand Dunman</h4>
+        <div class="space-y-2 text-justify">
+          <h4 class="text-xl font-medium">Bridgelux Homes</h4>
           <ul class="space-y-3 text-gray-600">
-            <li>Developer: Singhaiyi Group Pte. Ltd.</li>
-            <li>Tenure of Land: 99-Year Leasehold</li>
-            <li>Site Area: Approx. 271,622 sqft</li>
-            <li>Expected TOP: 2028</li>
+            <li>Developer: Teknik Perancang Realty</li>
+            <li>Tenure of Land: Perpetuity 3.37 h.a</li>
+            <li>Land Size: 6.12 points ~ 16.25 points</li>
           </ul>
         </div>
-        <div class="space-y-2">
+
+        <div class="space-y-2 text-justify">
           <h4 class="text-xl font-medium">Site Links</h4>
           <ul class="space-y-3 text-gray-600">
             <li>
-              <NuxtLink to="/" exact class="nuxt-link-exact-active nuxt-link-active">Grand Dunman</NuxtLink>
+              <NuxtLink to="/" exact class="nuxt-link-exact-active nuxt-link-active">Bridgelux Homes</NuxtLink>
             </li>
-            <li><NuxtLink to="/floor-plan">Floor Plan Grand Dunman</NuxtLink></li>
-            <li><NuxtLink to="/pricing">Pricing Grand Dunman</NuxtLink></li>
-            <li><NuxtLink to="/book-an-appointment">Book Appointment (Direct Price)</NuxtLink></li>
+            <li><NuxtLink to="/floor-plan">Floor Plan Bridgelux Homes</NuxtLink></li>
+            <li><NuxtLink to="/sales-memo">Sales Memo</NuxtLink></li>
             <li><NuxtLink to="/contact-us">Contact Us</NuxtLink></li>
           </ul>
         </div>
+
         <div class="space-y-2">
           <h4 class="text-xl font-medium">Contact Us</h4>
           <ul class="space-y-3 text-gray-600">
@@ -55,7 +57,7 @@
               >
                 <path d="M13 18.675c1.93.83 4.242 1.325 7 1.325v-4l-4-1-3 3.675zm0 0C9.159 17.023 6.824 14.045 5.5 11m0 0C4.4 8.472 4 5.898 4 4h4l1 4-3.5 3z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
               </svg>
-              <a href="tel:+6561003337">+65 6100 3337</a>
+              <a href="tel:+60178093305">+6017 809 3305</a>
             </li>
             <li class="flex items-center space-x-2">
               <svg
@@ -66,20 +68,24 @@
               >
                 <path d="M7 9l3.75 3a2 2 0 002.5 0L17 9m4 8V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2h14a2 2 0 002-2z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
               </svg>
-              <a href="mailto:sales@grand-dunman.com.sg">sales@grand-dunman.com.sg</a>
+              <a href="mailto:bridgeluxhome@gmail.com">bridgeluxhome@gmail.com</a>
             </li>
+            <li>
+              <a href="https://goo.gl/maps/wG6uA3muSvTBHd449" target="_blank">Lot 9680, 94300 Kota Samarahan, Sarawak</a>
+              </li>
           </ul>
         </div>
       </div>
     </div>
+        
     <div class="py-6 text-center bg-gray-200">
       <div class="max-w-6xl px-4 mx-auto space-y-2">
         <div class="text-sm text-gray-500">
           <div class="flex flex-wrap justify-center max-w-4xl mx-auto divide-x divide-gray-500">
             <p class="px-1">Copyright © 2023</p>
-            <p class="px-1">Grand Dunman</p>
-            <p class="px-1">SingHaiyi Group Pte. Ltd.</p>
-            <p class="px-1"><a href="tel:+6561003337">+65 6100 3337</a></p>
+            <p class="px-1">Bridgelux Homes Samarahan</p>
+            <p class="px-1">Teknik Perancang Realty Sdn. Bhd</p>
+            <p class="px-1"><a href="tel:+60178093305">+6017 809 3305</a></p>
             <NuxtLink to="/privacy-policy" class="px-1">Privacy Policy</NuxtLink>
           </div>
         </div>
@@ -91,24 +97,23 @@
           the developer or its agents do not guarantee its accuracy. This website is for marketing purposes only and should not be solely relied upon when making a purchase decision. 
           Although every reasonable care has been taken in preparing this website, including the construction of models and showflats, the developer and marketing agents cannot be held responsible for any 
           inaccuracies or omissions. Visual representations, models, showflats, displays, illustrations, photographs, art renderings, and other graphics are intended to convey the artist's impressions of 
-          the development and should not be considered as representations of fact. All listed properties, whether in Singapore or overseas, are subject to final inspection by relevant authorities to comply 
+          the development and should not be considered as representations of fact. All listed properties, whether in Kuching, Sarawak, Malaysia, are subject to final inspection by relevant authorities to comply 
           with the current codes of practice and policies of the respective countries. Purchasers should conduct their own inquiries and, if necessary, seek appropriate professional advice based on their specific 
           circumstances. All purchases are subject to the terms and conditions of the contract.
         </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
+  
 
     <div id="whatsapp-chat" class="hide">
     <div class="header-chat">
       <div class="head-home">
         <div class="info-avatar">
-          <!-- DUNMAN LOGO-->
-           <!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
   
         </div>
         <p>
-          <span class="whatsapp-name">Grand Dunman</span><br />
+          <span class="whatsapp-name">Bridgelux Homes Samarahan</span><br />
           <small>Typically replies within a day</small>
         </p>
       </div>
@@ -156,14 +161,13 @@
             class="WhatsappChat__Message-sc-1wqac52-4 kAZgZq"
           >
             <div class="WhatsappChat__Author-sc-1wqac52-3 bMIBDo">
-              Grand Dunman
+              Bridgelux Homes Samarahan
             </div>
             <div class="WhatsappChat__Text-sc-1wqac52-2 iSpIQi">
-              Thank you for expressing your interest in Grand Dunman👋<br /><br />How may I assist you today?
+              Thank you for expressing your interest in Bridgelux Homes👋<br /><br />How may I assist you today?
             </div>
             <div class="WhatsappChat__Time-sc-1wqac52-5 cqCDVm">
               {{ datetime }}
-              <!-- <?php $dt=new DateTime("now", new DateTimeZone('Asia/Singapore')); echo $dt->format('H:i'); ?> -->
             </div>
           </div>
         </div>
@@ -203,6 +207,7 @@
     </svg>
     Chat with Us now :=)
   </a>
+
 </template>
 
 <script>
@@ -222,7 +227,7 @@ export default {
     sendMessage() {
       const input = document.getElementById('chat-input');
       if (input.value !== '') {
-        const phoneNumber = '+6561003337'; // Update with your phone number
+        const phoneNumber = '+60178093305'; // Update with your phone number
         const message = input.value;
         const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
         window.open(url, '_blank');
@@ -293,7 +298,7 @@ a.blantershow-chat svg {
 }
 .header-chat {
   background: #009688;
-  background: #095e54;
+  background: #18766b;
   color: #fff;
   padding: 20px;
 }

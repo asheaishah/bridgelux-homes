@@ -1,20 +1,20 @@
 <template>
   <div>
-    <div class="py-12 select-none bg-theme-700">
-      <div class="text-xl font-semibold text-center text-white sm:text-4xl">
-        Site Plan
+    <div class="py-8 select-none bg-gradient-to-b from-violet-500 to-green-200 pb-20 h-10">
+        <div class="text-xl font-semibold text-center text-white sm:text-4xl">
+          Site Plan
+        </div>
       </div>
-    </div>
     <section>
       <div class="max-w-6xl px-4 py-12 mx-auto space-y-6">
         <img
-          src="~assets/img/GrandDunmanSitePlan.jpg"
+          src="~assets/img/blh/site-plan.png"
           alt="SitePlan for Grand Dunman"
           class="mx-auto"
         />
         <section class="py-6">
           <NuxtLink
-            to="/360-degree-view-site-plan"
+            to="/floor-plan"
             class="
               inline-flex
               items-center
@@ -26,11 +26,11 @@
               transition
               rounded
               sm:px-0
-              hover:bg-theme-900
-              bg-theme-700
+              hover:bg-blue-600
+              bg-blue-300
             "
           >
-            Continue To Grand Dunman Virtual Tours 
+            Continue To Floor Plan 
             <svg
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -51,3 +51,4 @@
     <BookAppointment />
   </div>
 </template>
+

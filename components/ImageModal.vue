@@ -19,7 +19,7 @@
         overflow-auto
       ">
       <div ref="modalRef" class="relative w-auto my-auto mx-auto max-w-6xl">
-        <!--content-->
+
         <div class="
             border-0
             rounded-lg
@@ -31,7 +31,7 @@
             outline-none
             focus:outline-none
           ">
-          <!--body-->
+
           <div class="relative p-6 flex-auto">
             <img :src="images[imageUrl]" alt="" class="mx-auto rounded" />
           </div>

@@ -1,88 +1,76 @@
 <template>
   <div>
     <div>
-      <div class="py-12 select-none bg-theme-700">
-        <div class="text-xl font-semibold text-center text-white sm:text-4xl">
+      <div class="py-8 select-none bg-gradient-to-b from-violet-500 to-green-200 pb-20 h-10">
+          <div class="text-xl font-semibold text-center text-white sm:text-4xl">
           Project Details
         </div>
       </div>
+<!--
+      <div class="max-w-6xl px-4 mx-auto prose text-justify">
+        <h1> About Developer </h1>
+          <p>
+            Teknik Perancang Realty Sdn Bhd Teknik Perancang Realty Sdn Bhd was incorporated on 1980 in Malaysia. Teknik Perancang Realty Sdn Bhd business includes property development
+          </p>
+      </div>
+-->
       <section class="py-12">
         <div class="max-w-6xl px-4 mx-auto">
           <div class="p-6 bg-white rounded-lg shadow-lg">
             <div class="grid grid-cols-1 gap-6 sm:grid-cols-2">
               <div>
                 <label class="block text-gray-500 font-bold">Project Name</label>
-                <p>Grand Dunman (名门世家)</p>
+                <p>Bridgelux Homes</p>
               </div>
               <div>
                 <label class="block text-gray-500 font-bold">Developer</label>
-                <p>SingHaiyi Group Pte. Ltd.</p>
+                <p>Teknik Perancang Realty Sdn. Bhd</p>
               </div>
               <div>
                 <label class="block text-gray-500 font-bold">Location</label>
-                <p>Dakota / Marine Parade</p>
+                <p>Lot 9680, Kota Samarahan</p>
               </div>
+              
               <div>
                 <label class="block text-gray-500 font-bold">District</label>
-                <p>District 15</p>
-              </div>
-              <div>
-                <label class="block text-gray-500 font-bold">Site Area</label>
-                <p>Approx. 252,234 sq m / 271,622 sq ft</p>
+                <p>Kota Samarahan</p>
               </div>
               <div>
                 <label class="block text-gray-500 font-bold">Maximum Gross Floor Area</label>
-                <p>88,321 m²</p>
-              </div>
-              <div>
-                <label class="block text-gray-500 font-bold">Plot Ratio</label>
-                <p>3.5</p>
-              </div>
-              <div>
-                <label class="block text-gray-500 font-bold">Architect</label>
-                <p>P &amp; T Consultant</p>
-              </div>
-              <div>
-                <label class="block text-gray-500 font-bold">Main Contractor</label>
-                <p>China Construction Realty Co Pte Ltd</p>
-              </div>
-              <div>
-                <label class="block text-gray-500 font-bold">Landscape Consultant</label>
-                <p>COEN Design International Pte Ltd</p>
+                <p>1990 ft / unit</p>
               </div>
               <div>
                 <label class="block text-gray-500 font-bold">Tenure</label>
-                <p>99-Year Leasehold</p>
+                <p>Perpetuity 3.37 h.a</p>
               </div>
               <div>
-                <label class="block text-gray-500 font-bold">Site Use</label>
-                <p>Residential Flat Developement</p>
+                <label class="block text-gray-500 font-bold">Land Size</label>
+                <p>6.12 points ~ 16.25 points</p>
+              </div>
+              <div>
+                <label class="block text-gray-500 font-bold">No of car park lots</label>
+                <p>2 per unit</p>
+              </div>
+              <div>
+                <label class="block text-gray-500 font-bold">Project by</label>
+                <p>Idaman Prima Sdn Bhd ( 496661-M )</p>
               </div>
               <div>
                 <label class="block text-gray-500 font-bold">Total No. of Units</label>
-                <p>1,008 Residential Units &amp; 5 Shops</p>
+                <p>62 units</p>
               </div>
               <div>
-                <label class="block text-gray-500 font-bold">Development</label>
-                <p>7 Blocks of 18-Storey Apartment</p>
-              </div>
-              <div>
-                <label class="block text-gray-500 font-bold">Land Use</label>
-                <p>Residential (Non-Landed)</p>
-              </div>
-              <div>
-                <label class="block text-gray-500 font-bold">Expected Date of TOP</label>
-                <p>2028</p>
+                <label class="block text-gray-500 font-bold">Land use</label>
+                <p>Residentials</p>
               </div>
               <div>
                 <label class="block text-gray-500 font-bold">Expected Date of Legal Completion</label>
-                <p>2031</p>
+                <p>24 months from S &amp; P date</p>
               </div>
-              
             </div>
           </div>
           <div class="py-4 italic text-center text-gray-500">
-            (Project details for Grand Dunman may be subjected to change without prior notice)
+            (Project details for Bridgelux Homes may be subjected to change without prior notice)
           </div>
           <section class="py-6">
             <NuxtLink
@@ -98,8 +86,8 @@
                 transition
                 rounded
                 sm:px-0
-                hover:bg-theme-900
-                bg-theme-700
+                hover:bg-blue-600
+                bg-blue-300
               "
             >
               Continue To Location Map
@@ -120,7 +108,9 @@
           </section>
         </div>
       </section>
+      
       <BookAppointment />
+    
     </div>
   </div>
 </template>

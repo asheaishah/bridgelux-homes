@@ -65,7 +65,7 @@ function toggleModal(url) {
   modal.value = true
 }
 
-const glob = import.meta.glob(`~/assets/img/floorplan/*.jpg`, { eager: true });
+const glob = import.meta.glob(`~/assets/img/blh/*.jpg`, { eager: true });
 const images = Object.fromEntries(
   Object.entries(glob).map(([key, value]) => [filename(key), value.default])
 );

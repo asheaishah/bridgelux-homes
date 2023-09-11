@@ -9,14 +9,14 @@ export default defineNuxtConfig({
     },
     app: {
         head: {
-            title:'Grand Dunman',
+            title:'Bridgelux Homes',
             charset: 'utf-8',
             viewport: 'width=device-width, initial-scale=1',
             meta: [
                 { charset: 'utf-8' },
                 { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-                { hid: 'description', name: 'description', content: 'Discover Grand Dunman, an epitome of luxury living in District 15, Singapore. Nestled in nature, this upcoming residential development offers over 1,000 units coupled with premium facilities and seamless connectivity, with Dakota MRT Station less than 100m away.' },
-                { hid: 'keywords', name: 'keywords', content: 'Grand Dunman, Dunman Residences, New Property Launch, Singapore District 15 Properties, Dakota MRT Condos, Luxury Residential Developments Singapore, Dunman Road Condo, Grand Dunman New Launch, Dunman Real Estate' },
+                { hid: 'description', name: 'description', content: 'Discover Bridgelux Homes, a Bumi Lot where it is only available for bumiputera Sarawakians located at Lot 9680, Kota Samarahan near Batang Samarahan Bridge. Bridgelux Homes sits on a land size around 1990 sqft per unit and comprises of 3 bedrooom and 2 bedroom.' },
+                { hid: 'keywords', name: 'keywords', content: 'Bridgelux Homes, Samarahan Residence, New Property Launch' },
                 { name: 'format-detection', content: 'telephone=no' },
               ],
             script: [
@@ -30,7 +30,7 @@ export default defineNuxtConfig({
     },
     runtimeConfig: {
         email: '', // can be overridden by NUXT_API_SECRET environment variable
-        title:'Grand Dunman',
+        title:'Bridgelux Homes',
         emailUser: '',
     },
     

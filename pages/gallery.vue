@@ -1,13 +1,14 @@
 <template>
   <div>
-    <div class="py-12 select-none bg-theme-700">
-      <div class="text-xl font-semibold text-center text-white sm:text-4xl">
-        Gallery
+    <div class="py-8 select-none bg-gradient-to-b from-violet-500 to-green-200 pb-20 h-10">
+          <div class="text-xl font-semibold text-center text-white sm:text-4xl">
+          Gallery
+        </div>
       </div>
-    </div>
     <section>
       <div class="max-w-6xl px-4 py-12 mx-auto space-y-6">
         <ImageModal :bed-room-prop="imageUrl" />
+        <!--
         <div>
           <p class="max-w-2xl mx-auto text-center">
             Disclaimer: Illustrative Image with Update Policy
@@ -21,10 +22,10 @@
                </p>
           <br><br>
         </div>
-        
+      -->
         <section class="py-6">
           <NuxtLink
-            to="/video"
+            to="/bridgelux-homes/phase-1"
             class="
               inline-flex
               items-center
@@ -36,11 +37,11 @@
               transition
               rounded
               sm:px-0
-              hover:bg-theme-900
-              bg-theme-700
+              hover:bg-blue-600
+              bg-blue-300
             "
           >
-            Continue To Grand Dunman Video
+            Continue To Phase 1 - E-brochure
             <svg
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -66,15 +67,15 @@ export default {
   data() {
     return {
       imageUrl: [
-        { url: 'GrandDunman-Perspective-3-360x220' }, 
-        { url: 'GrandDunman-Perspective-4-360x220' },
-        { url: 'GrandDunman-Perspective-5-360x220' }, 
-        { url: 'GrandDunman-Perspective-6-360x220' }, 
-        { url: 'GrandDunman-Perspective-7-360x220' }, 
-        { url: 'GrandDunman-Perspective-8-360x220' }, 
-        { url: 'GrandDunman-Perspective-9-360x220' }, 
-        { url: 'GrandDunman-Perspective-10-360x220' }, 
-        { url: 'GrandDunman-Perspective-11-360x220' }, 
+        { url: 'BLH-1' }, 
+        { url: 'BLH-2' },
+        { url: 'BLH-3' }, 
+        { url: 'BLH-4' }, 
+        { url: 'BLH-5' }, 
+        { url: 'BLH-6' }, 
+        { url: 'BLH-7' }, 
+        { url: 'BLH-8' }, 
+        { url: 'BLH-9' }, 
       ],
     }
   },

@@ -11,7 +11,7 @@
           <div>
             <p>
               This is the privacy policy (“Privacy Policy”) for the Web site
-              available at grand-dunman.com.sg (the “Site”). This Privacy
+              available at bridgeluxhomes.kuchingproperty.com (the “Site”). This Privacy
               Policy sets forth our policies regarding the collection, use and
               disclosure of certain information relating to your use of the
               Site. Your use of this Site signifies your understanding and
@@ -64,14 +64,14 @@
             products and services, we may send e-mails and announcements
             regularly to your personal mobile number or email address that you
             provided to us. Users with malicious intention such as but not
-            limited to; providing “grand-dunman.com.sg” false and inaccurate
+            limited to; providing “bridgeluxhomes.kuchingproperty.com” false and inaccurate
             information of particulars not belonging to themselves will be
             referred (with hardware and IP address) to the relevant authority
             for cyber harassment.
           </p>
           <p>
             Contacting Us: We welcome individuals with questions or problem
-            related to use of the “https://grand-dunman.com.sg/” to contact
+            related to use of the “https://bridgeluxhomes.kuchingproperty.com/” to contact
             us at our provided contact form on our website.
           </p>
           <h4>THIRD-PARTY INFORMATION</h4>
